@@ -43,7 +43,7 @@ def total_gross(source)
     total += directors_totals(source)[direc_name]
     i += 1 
   end
-  return total
+  total
 end
 
 pp directors_database
